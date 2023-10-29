@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Template</title>
+</head>
+<body>
+    <footer id="fragmentTag" th:fragment="footer1(title,subtitle)">
+        <div class="container">
+            <h1 th:text="${title}"></h1>
+            <h1 th:text="${subtitle}"></h1>
+            <h1>About Learn Code with Sarthak</h1>
+            <h1>Provide good content for programming</h1>
+            <h1>Feel free to contact and work with me</h1>
+        </div>
+    </footer>
+</body>
+</html>
